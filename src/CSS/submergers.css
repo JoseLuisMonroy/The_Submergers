@@ -15,18 +15,16 @@
 }
 
 :root{
-  --darkBlue: #01295F;
+  --black: #111b1e;
+  --darkestBlue: #01295F;
+  --darkBlue: #2f4c58;
   --lightBlue: #2CA5A9;
+  --green: #63a583;
   --paleBlue:#A7BCBD;
   --lightGray: #D5D1D0;
-  --grayRGB: 229,229,229;
-  --gray: rgba(229,229,229,.8);
+  --gray: rgb(229,229,229);
+  --grayAlpha: rgba(229,229,229,.8);
   --paleOrange: #E67951;
-}
-
-body,html{
-  min-width: 600px;
-  scroll-behavior: smooth;
 }
 
 img{
@@ -39,27 +37,21 @@ h2{ font-size:2.6rem;}
 h3{ font-size:2.4rem;}
 
 
-.mainSection{
+.mainSection,.formSection{
   display:flex;
   justify-content: center;
   align-items: center;
   
   min-height:100vh;
-  
-  box-shadow: 5px 5px 15px var(--lightGray);
 }
 
-.usSection,.especiesSection,.formSection{
+.usSection,.especiesSection{
   display:flex;
   justify-content: center;
   align-items: center;
 
-  padding:3rem 0;
-  gap:3rem;
   margin:2rem 0;
-  min-height:70vh;
-
-  box-shadow: 5px 5px 15px var(--lightGray);
+  min-height:80vh;
 }
 
 .orangeButton{
