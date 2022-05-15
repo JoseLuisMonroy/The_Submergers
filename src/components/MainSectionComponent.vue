@@ -1,7 +1,11 @@
+<script setup>
+import {RouterLink} from 'vue-router';
+</script>
+
 <template>
   <section class="mainSection" id="mainSection">
     <p>SE PARTE DEL CAMBIO PARA CUIDAR NUESTROS OCÉANOS</p>
-    <a href="/login"><button class="orangeButton">SUSCRIBETE</button></a>
+    <RouterLink class="orangeButton" to="/login"><span>REGISTRATE</span></RouterLink>
     
   </section>
 </template>
