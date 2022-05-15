@@ -1,29 +1,20 @@
-# Submergers
+<h1> The Submergers </h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+The submergers es una idea que surgió con el fin de buscar una solución a un problema como lo son las especies en peligro de extinción.
+Lo que busca The submergers es crear una conciencia sobre las especies mediante una página web donde se muestren datos, y en un futuro se puedan crear estadisticas de los usuarios, estadisticas básicas como saber si reciclan materiales, o si concoen de fudaciones que ayuden a estas especies.
 
-## Recommended IDE Setup
+El proyecto se encuentra actualmente desplegado en:
+    <a href="https://jolly-plant-0f4e62410.1.azurestaticapps.net/">The submergers Website</a>
+<h2>Info del proyecto </h2>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+#Descargar el proyecto desde git y correrlo de manera local 
+Realiza un fork del proyecto y ejecuta los siguientes comandos en terminal 
+git clone https://github.com/JoseLuisMonroy/The_Submergers
 
-## Customize configuration
+cd The_Submergers
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Y ejecuta el link localhost:5050/ en tu navegador preferido
