@@ -24,7 +24,7 @@ import {RouterLink} from 'vue-router';
       <section class="us">
         <h1>THE SUBMERGERS</h1>
         <p>The submergers es una iniciativa para buscar hacer conciencia sobre los oceanos, en especifico las especies que estan en peligro de extinción</p>
-        <button class="orangeButton">SABER MÁS</button>
+        <RouterLink to="/problematica"><button class="orangeButton">SABER MÁS</button></RouterLink>
       </section>
     </section>
 </template>
