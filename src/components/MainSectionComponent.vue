@@ -5,7 +5,7 @@ import {RouterLink} from 'vue-router';
 <template>
   <section class="mainSection" id="mainSection">
     <p>SE PARTE DEL CAMBIO PARA CUIDAR NUESTROS OCÉANOS</p>
-    <RouterLink class="orangeButton" to="/login"><span>REGISTRATE</span></RouterLink>
+    <RouterLink to="/login"><button class="orangeButton">SUSCRIBETE</button></RouterLink>
     
   </section>
 </template>
