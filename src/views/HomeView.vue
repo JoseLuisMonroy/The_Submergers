@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
+import mainSection from '../components/MainSectionComponent.vue';
+import usSection from '../components/UsSectionComponent.vue';
+import especiesSection from '../components/EspeciesSectionComponent.vue';
+import formSection from '../components/FormSectionComponent.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <mainSection></mainSection>
+  <usSection></usSection>
+  <especiesSection></especiesSection>
+  <sectionForm></sectionForm>
 </template>
