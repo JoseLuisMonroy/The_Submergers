@@ -1,5 +1,5 @@
 <template>
-  <section class="section usSection">
+  <section class="usSection" id="usSection">
       <section class="usImages">
         <figure>
           <img src="./../assets/IMG/ocean1.jpg" alt="">
@@ -61,11 +61,18 @@
   flex:1 1 100%;
   font-size: 6.4rem;
   text-align: center;
+  color:var(--darkBlue);
 }
 
 .us p{
   flex:1 1 100%;
   font-size: 2rem;
   text-align: justify;
+}
+
+@media screen and (max-width:1260px) {
+  .usSection{
+    flex-wrap: wrap-reverse;
+  }
 }
 </style>

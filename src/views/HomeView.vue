@@ -9,5 +9,5 @@ import formSection from '../components/FormSectionComponent.vue';
   <mainSection></mainSection>
   <usSection></usSection>
   <especiesSection></especiesSection>
-  <sectionForm></sectionForm>
+  <formSection></formSection>
 </template>

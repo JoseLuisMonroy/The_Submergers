@@ -20,7 +20,6 @@ import {RouterLink} from 'vue-router'
 figure{
   flex:0 1 500px;
   height:100px;
-  background-color: var(--gray);
 }
 
 nav{
@@ -39,7 +38,6 @@ nav{
   letter-spacing: 1px;
   font-weight: bold;
 
-  background-color: var(--gray);
   color: var(--darkBlue);
   border-bottom:5px solid var(--gray);
 
@@ -61,5 +59,23 @@ nav{
   background-color: var(--lightBlue);
   color:var(--gray);
   border-bottom: 5px solid var(--gray);
+}
+
+@media screen and (max-width:1080px){
+  figure{
+    flex:0 1 350px;
+  }
+  nav{
+    width:72px;
+    height:72px;
+    background-image: url('./../assets/ICONS/menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .btnNav{
+    display:none;
+  }
 }
 </style>

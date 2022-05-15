@@ -24,6 +24,11 @@
   --paleOrange: #E67951;
 }
 
+body,html{
+  min-width: 600px;
+  scroll-behavior: smooth;
+}
+
 img{
   width:100%;
   height:100%;
@@ -34,21 +39,27 @@ h2{ font-size:2.6rem;}
 h3{ font-size:2.4rem;}
 
 
-.mainSection,.formSection{
+.mainSection{
   display:flex;
   justify-content: center;
   align-items: center;
   
   min-height:100vh;
+  
+  box-shadow: 5px 5px 15px var(--lightGray);
 }
 
-.usSection,.especiesSection{
+.usSection,.especiesSection,.formSection{
   display:flex;
   justify-content: center;
   align-items: center;
 
+  padding:3rem 0;
+  gap:3rem;
   margin:2rem 0;
-  min-height:80vh;
+  min-height:70vh;
+
+  box-shadow: 5px 5px 15px var(--lightGray);
 }
 
 .orangeButton{

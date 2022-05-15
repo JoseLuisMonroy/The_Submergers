@@ -1,5 +1,5 @@
 <template>
-  <section class="section mainSection">
+  <section class="mainSection" id="mainSection">
     <p>SE PARTE DEL CAMBIO PARA CUIDAR NUESTROS OCÉANOS</p>
     <button class="orangeButton">INSCRIBETE</button>
   </section>
@@ -29,5 +29,9 @@
 
 }
 
-
+@media  screen and (max-width:1080px) {
+  .mainSection p{
+    width:90%;
+  }
+}
 </style>

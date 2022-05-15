@@ -1,5 +1,5 @@
 <template>
-  <section class="section especiesSection">
+  <section class="especiesSection" id="especiesSection">
     <h2>Especies por ayudar</h2>
     <section class="cards">
       <div class="card card1">
@@ -45,9 +45,14 @@
 <style scoped>
 .especiesSection{
   flex-direction: column;
-  justify-content: flex-start;
   gap:3rem;
   /* border:2px solid red; */
+}
+
+.especiesSection h2{
+  font-size: 6.4rem;
+  text-align: center;
+  color:var(--darkBlue);
 }
 
 .cards{
@@ -58,7 +63,6 @@
   row-gap: 3rem;
   width:100%;
   padding:5rem;
-  border:2px solid black;
 }
 
 .cards .card{
@@ -67,7 +71,7 @@
   justify-content: center;
   align-items: flex-end;
   
-  height: 350px;
+  height: 400px;
 
   background-position: top center;
   background-repeat: no-repeat;

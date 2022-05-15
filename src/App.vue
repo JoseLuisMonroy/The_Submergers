@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 //import HelloWorld from '@/components/HelloWorld.vue'
 
 </script>
@@ -13,7 +14,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
     <RouterView />
   </main>
   <footer id="footer">
-    
+    <FooterComponent></FooterComponent>
   </footer>
 </template>
 
@@ -27,6 +28,14 @@ import HeaderComponent from './components/HeaderComponent.vue';
   justify-content: space-between;
   align-items: center;
 
+  background-color: var(--gray);
+
   width:100%;
+}
+
+@media screen and (max-width:1080px){
+  #header{
+    padding: 0 4rem;
+  }
 }
 </style>
