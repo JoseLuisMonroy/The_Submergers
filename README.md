@@ -9,12 +9,21 @@ El proyecto se encuentra actualmente desplegado en:
 
 #Descargar el proyecto desde git y correrlo de manera local 
 Realiza un fork del proyecto y ejecuta los siguientes comandos en terminal 
+```
 git clone https://github.com/JoseLuisMonroy/The_Submergers
-
+```
+```
 cd The_Submergers
-
+```
+```
 npm install
-
+```
+```
 npm run dev
+```
+Y ejecuta el link 
+```
+http://localhost:5050/ 
+```
+en tu navegador preferido
 
-Y ejecuta el link localhost:5050/ en tu navegador preferido
