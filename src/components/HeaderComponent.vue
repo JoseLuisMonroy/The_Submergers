@@ -11,7 +11,7 @@ import {RouterLink} from 'vue-router';
         <RouterLink class="nav-btn" to="/estrategias"><span>ESTRATEGIAS</span></RouterLink>
         <RouterLink class="nav-btn" to="/especies"><span>ESPECIES</span></RouterLink>
         <RouterLink class="nav-btn" to="/trips"><span>TRIPS</span></RouterLink>
-        <RouterLink class="nav-btn" to="/login"><span>LOGIN</span></RouterLink>
+        <RouterLink class="nav-btn" to="/login"><span>REGISTRATE</span></RouterLink>
     </nav>
   </div>
 </template>
