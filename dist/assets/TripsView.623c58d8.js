@@ -1,1 +1,0 @@
-import{_ as s,o as _,c as o,p as t,a,b as c}from"./index.5b92f6a2.js";const r={},p=e=>(t("data-v-812b991e"),e=e(),a(),e),d={class:"wrapper"},n=p(()=>c("h1",null,"VISTA DE TRIPS",-1)),i=[n];function l(e,u){return _(),o("div",d,i)}var v=s(r,[["render",l],["__scopeId","data-v-812b991e"]]);export{v as default};

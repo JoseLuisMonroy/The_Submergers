@@ -1,1 +1,0 @@
-import{_ as s,o as a,c,p as _,a as o,b as t}from"./index.5b92f6a2.js";const d={},p=e=>(_("data-v-3655aacd"),e=e(),o(),e),r={class:"wrapper"},n=p(()=>t("h1",null,"VISTA DE ESPECIES",-1)),i=[n];function l(e,u){return a(),c("div",r,i)}var v=s(d,[["render",l],["__scopeId","data-v-3655aacd"]]);export{v as default};
