@@ -1,81 +1,58 @@
 <script setup>
-import {RouterLink} from 'vue-router'
+import {RouterLink} from 'vue-router';
 </script>
 
 <template>
-  <figure>
-      <img src="./../assets/IMG/submergers_logo.png" alt="submergers_logo">
-    </figure>
+  <div>
+    <img src="./../assets/IMG/fullLogo.png" alt="submergers_logo">
     <nav>
-        <RouterLink to="/" class="btnNav">INICIO</RouterLink>
-        <RouterLink to="/problematica" class="btnNav">PROBLEMATICA</RouterLink>
-        <RouterLink to="/estrategias" class="btnNav">ESTRATEGIAS</RouterLink>
-        <RouterLink to="/especies" class="btnNav">ESPECIES</RouterLink>
-        <RouterLink to="/trips" class="btnNav">TRIPS</RouterLink>
-        <RouterLink to="/login" class="btnNav">LOGIN</RouterLink>
+        <RouterLink class="nav-btn" to="/"><span>INICIO</span></RouterLink>
+        <RouterLink class="nav-btn" to="/problematica"><span>PROBLEMATICA</span></RouterLink>
+        <RouterLink class="nav-btn" to="/estrategias"><span>ESTRATEGIAS</span></RouterLink>
+        <RouterLink class="nav-btn" to="/especies"><span>ESPECIES</span></RouterLink>
+        <RouterLink class="nav-btn" to="/trips"><span>TRIPS</span></RouterLink>
+        <RouterLink class="nav-btn" to="/login"><span>LOGIN</span></RouterLink>
     </nav>
+  </div>
 </template>
 
 <style scoped>
-figure{
-  flex:0 1 500px;
-  height:100px;
+div{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  width: 100%;
 }
 
 nav{
-  display:flex;
-  justify-content: space-evenly;
+  display: flex;
 }
 
-.btnNav{
-  display:flex;
-  align-items: center;
+.nav-btn{
+  display: grid;
+  width: calc(100% / 6);
+  overflow: hidden;
 
-  padding: 0 1rem;
-  height:100px;
-
-  font-size:1.6rem;
-  letter-spacing: 1px;
+  text-align: center;
   font-weight: bold;
 
-  color: var(--darkBlue);
-  border-bottom:5px solid var(--gray);
+  background-color: var(--gray);
+  color: var(--green);
+  border-left: 5px solid var(--gray);
 
   transition: all .15s ease-in 0s;
 }
 
+.nav-btn:hover{
+  background-color: var(--green);
+  color:var(--gray);
+  border-left:5px solid var(--green);
+}
+
 .router-link-exact-active{
-  border-bottom: 5px solid var(--lightBlue);
-  color:var(--lightBlue);
+  border-left: 5px solid var(--green);
+  color:var(--green);
 }
 
-.btnNav:hover{
-  background-color: var(--darkBlue);
-  color:var(--gray);
-  border-bottom:5px solid var(--darkBlue);
-}
-
-.router-link-exact-active:hover{
-  background-color: var(--lightBlue);
-  color:var(--gray);
-  border-bottom: 5px solid var(--gray);
-}
-
-@media screen and (max-width:1080px){
-  figure{
-    flex:0 1 350px;
-  }
-  nav{
-    width:72px;
-    height:72px;
-    background-image: url('./../assets/ICONS/menu.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-  .btnNav{
-    display:none;
-  }
-}
+span{margin: auto; font-size: 1.6rem;}
 </style>
