@@ -1,0 +1,1 @@
+import{_,o,c,p as s,a as t,b as a}from"./index.b120cefa.js";const r={},d=e=>(s("data-v-c7809bfe"),e=e(),t(),e),n={class:"wrapper"},p=d(()=>a("h1",null,"VISTA DEL LOGIN",-1)),i=[p];function l(e,f){return o(),c("div",n,i)}var h=_(r,[["render",l],["__scopeId","data-v-c7809bfe"]]);export{h as default};
