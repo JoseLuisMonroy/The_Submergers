@@ -5,5 +5,11 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [vue()],
-    base: '/The_submergers/',
+    base: './',
+    resolve: {
+        alias: {
+            '@': fileURLToPath(new URL('./assets',
+                import.meta.url))
+        }
+    }
 })
