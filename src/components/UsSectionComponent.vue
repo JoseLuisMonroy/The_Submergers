@@ -1,3 +1,7 @@
+<script setup>
+import {RouterLink} from 'vue-router';
+</script>
+
 <template>
   <section class="usSection" id="usSection">
       <section class="usImages">
