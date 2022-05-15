@@ -1,7 +1,7 @@
 <template>
   <section class="mainSection" id="mainSection">
     <p>SE PARTE DEL CAMBIO PARA CUIDAR NUESTROS OCÉANOS</p>
-    <button class="orangeButton" href="./../views/LoginView.vue">SUSCRIBETE</button>
+    <button class="orangeButton" to="./../views/LoginView.vue">SUSCRIBETE</button>
   </section>
 </template>
 
