@@ -1,7 +1,7 @@
 <template>
   <section class="mainSection" id="mainSection">
     <p>SE PARTE DEL CAMBIO PARA CUIDAR NUESTROS OCÉANOS</p>
-    <button class="orangeButton">INSCRIBETE</button>
+    <button class="orangeButton">SUSCRIBETE</button>
   </section>
 </template>
 

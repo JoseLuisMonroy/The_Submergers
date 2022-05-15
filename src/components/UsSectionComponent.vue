@@ -19,7 +19,7 @@
       </section>
       <section class="us">
         <h1>THE SUBMERGERS</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione deleniti doloremque eveniet, dicta rem magnam. Libero eaque voluptatibus officiis pariatur temporibus ratione magnam voluptates? Quo possimus doloribus voluptas quam?</p>
+        <p>The submergers es una iniciativa para buscar hacer conciencia sobre los oceanos, en especifico las especies que estan en peligro de extinción</p>
         <button class="orangeButton">SABER MÁS</button>
       </section>
     </section>
