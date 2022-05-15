@@ -27,3 +27,8 @@ http://localhost:5050/
 ```
 en tu navegador preferido
 
+<h2>Tecnologias empleadas</h2>
+Para el front end se decidió usar el framework de vuejs, en el desplegue de la web se emplean los servicios de Microsotf Azure, y debido a la versatilidad y tiempo se optó por el servicio de paginas web estaticas.
+Para la parte de Back se usará Java.
+
+<h3>Diagrama de solución</h3>
