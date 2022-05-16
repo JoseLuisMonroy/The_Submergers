@@ -32,3 +32,4 @@ Para el front end se decidió usar el framework de vuejs, en el desplegue de la 
 Para la parte de Back se usará Java.
 
 <h3>Diagrama de solución</h3>
+<img src="./src/assets/IMG/diagrama.png">
