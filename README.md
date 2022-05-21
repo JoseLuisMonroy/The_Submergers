@@ -13,6 +13,14 @@ Realiza un fork del proyecto y ejecuta los siguientes comandos en terminal
 git clone https://github.com/JoseLuisMonroy/The_Submergers
 ```
 ```
+
+<p> se agrega link donde se realizó la práctica de base de datos con JAVA, CONTENEDOR DOCKER, JPA.
+
+```
+https://github.com/EliStgoManz/JPA-hibernate--Java-docker
+```
+```
+
 cd The_Submergers
 ```
 ```
